@@ -6,8 +6,9 @@ const Home = () => {
     <div className="home">
         <div className='container d-flex justify-content-between'>
             <div className='home-content d-flex flex-column justify-content-center'>
-                <h2>Make Learning fun</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, nihil impedit asperiores labore perspiciatis explicabo. Quam minima, consectetur molestiae rerum nihil sapiente suscipit tenetur animi dolor, quis unde eos temporibus.</p>
+                <h2>The free,fun and effective way to learn</h2>
+                <button className="button1">Get Started</button>
+                <button className="button2"> I already have an account</button>
             </div>
             <div>
                 <img src={logo} alt='logo' className="home-image" />

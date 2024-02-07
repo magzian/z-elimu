@@ -14,8 +14,8 @@ function Navbar1() {
         <Container  className="d-flex justify-content-end">
             <Nav>
                 <Nav.Link href='#instagram'><FaInstagram /></Nav.Link>
-                <Nav.Link href='#instagram'><FaFacebook /></Nav.Link>
-                <Nav.Link href='#instagram'><FaLinkedin /></Nav.Link>
+                <Nav.Link href='#facebook'><FaFacebook /></Nav.Link>
+                <Nav.Link href='#linkedIn'><FaLinkedin /></Nav.Link>
             </Nav>
         </Container>
     </Navbar>
