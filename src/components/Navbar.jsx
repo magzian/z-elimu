@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaInstagram, FaFacebook, FaLinkedin} from "react-icons/fa";
 import logo1 from '../elephant.png'
+import { Link } from 'react-router-dom';
 
 
 function Navbar1() {
@@ -29,7 +30,7 @@ function Navbar1() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>
             <NavDropdown title="Courses" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Mathematics</NavDropdown.Item>
+              <Link to="/questions"><NavDropdown.Item href="#action/3.1">Mathematics</NavDropdown.Item></Link>
               <NavDropdown.Item href="#action/3.2">
                 English
               </NavDropdown.Item>

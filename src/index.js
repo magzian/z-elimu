@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Login from './components/LoginPage';
 import SignUp from './components/SignUpPage';
+import Questions from './components/Questions';
 
 import {
   createBrowserRouter,
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <SignUp />,
+  },
+  {
+    path: "/questions",
+    element: <Questions />
   },
 ]);
 
